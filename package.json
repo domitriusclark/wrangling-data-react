@@ -1,0 +1,19 @@
+{
+  "name": "react-data-wrangling",
+  "version": "1.0.0",
+  "description": "Scaffold for building projects with React and using data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5"
+  }
+}
