@@ -1,5 +1,8 @@
 # wrangling-data-react
-Teaching the meetup how to fetch and use data inside of React
+This will be your base React + Node app to mock fetching and manipulating data. You can even use this as a base for other projects
+
+### WARNING
+In this app we are using React 16.7 Alpha. Do not take this to production without downgrading or knowing the boundaries!
 
 
 ## Steps
