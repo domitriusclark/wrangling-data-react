@@ -33,8 +33,9 @@ const AppWithHooks = () => {
 	return (
 		<div className="App__container">
       {loading ? <p>Loading...</p> : fetchedCharacters.map((singleCharacter) => {
+        const { id, name: characterName } = singleCharacter;
         return (
-          <p key={singleCharacter.id}>{singleCharacter.name}</p>
+          <p key={id}>{characterName}</p>
         )
       })}
 		</div>
