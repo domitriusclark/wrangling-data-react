@@ -1,25 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+/*
+
+Steps:
+- Create your fetch for the Avaria data at http://localhost:5000/test
+- Once you are sucessfully making the call, manipulate the data to display each characters name.
+- If you have the names displaying to the DOM, you now have sucessfully gotten the data flow you wanted. Now look toward building a card UI
+for displaying the characers detais. 
+
+** get as creative as you'd like with this **
+
+*/
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
       </div>
     );
   }

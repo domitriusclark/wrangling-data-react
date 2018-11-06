@@ -9,7 +9,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-// respond with "hello world" when a GET request is made to the homepage
+// This route is serving our local json as an api route would
 app.get("/test", function(req, res, next) {
   res.send(data);
 });
