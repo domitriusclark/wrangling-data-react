@@ -1,0 +1,870 @@
+{
+    "classes": {
+        "11111111-1234-0000-1111-000000000000": {
+            "id": "11111111-1234-0000-1111-000000000000",
+            "name": "Eoni",
+            "description": "Creatures? Aliens? Monsters? Depends who you ask."
+        },
+        "11111111-1234-0000-2222-000000000000": {
+            "id": "11111111-1234-0000-2222-000000000000",
+            "name": "Servo",
+            "description": "Brobots who love citrus."
+        },
+        "11111111-1234-0000-3333-000000000000": {
+            "id": "11111111-1234-0000-3333-000000000000",
+            "name": "Mage",
+            "description": "You know, like wizards n stuff."
+        },
+        "11111111-1234-0000-4444-000000000000": {
+            "id": "11111111-1234-0000-4444-000000000000",
+            "name": "Soldier",
+            "description": "Angry temper tantrum peeps."
+        }
+    },
+    "characters": {
+        "11111111-1234-0000-1111-000000000001": {
+            "id": "11111111-1234-0000-1111-000000000001",
+            "name": "Kasper",
+            "classId": "11111111-1234-0000-1111-000000000000",
+            "stats": {
+                "hp": 2100,
+                "strength": 41,
+                "vitality": 43,
+                "speed": 6,
+                "mana": 35,
+                "spirit": 45
+            },
+            "abilities": {
+                "Infinity": "Deals Strength damage.",
+                "Chakra": "Deals Strength damage to a party.",
+                "Chi": "Increases Speed.",
+                "Pyrokinesis": "Deals Strength damage.",
+                "Sedative Nano": "Reduce focus of your target.",
+                "Third Eye": "Heals and increases Speed.",
+                "Love Nano": "Revive your target."
+            },
+            "archetypes": [
+                "11111111-1234-0000-1111-100000000001",
+                "11111111-1234-0000-1111-200000000001"
+            ]
+        },
+        "11111111-1234-0000-1111-000000000002": {
+            "id": "11111111-1234-0000-1111-000000000002",
+            "name": "Ev",
+            "classId": "11111111-1234-0000-1111-000000000000",
+            "stats": {
+                "hp": 1900,
+                "strength": 47,
+                "vitality": 43,
+                "speed": 5,
+                "mana": 32,
+                "spirit": 40
+            },
+            "abilities": {
+                "Distortion": "Deals Strength damage.",
+                "Harmony": "Increases Vitality.",
+                "Chakra": "Deals Strength damage to a party.",
+                "Pyrokinesis": "Deals Strength damage.",
+                "Frenzy Nano": "Daze and increase Speed 3-stacks.",
+                "Nirvana": "Increases Strength, Mana, Vitality, and Spirit.",
+                "Narcotic Nano": "Reduce focus of the target party."
+            },
+            "archetypes": [
+                "11111111-1234-0000-1111-100000000002",
+                "11111111-1234-0000-1111-200000000002"
+            ]
+        },
+        "11111111-1234-0000-1111-000000000003": {
+            "id": "11111111-1234-0000-1111-000000000003",
+            "name": "Gia",
+            "classId": "11111111-1234-0000-1111-000000000000",
+            "stats": {
+                "hp": 2300,
+                "strength": 33,
+                "vitality": 36,
+                "speed": 5,
+                "mana": 45,
+                "spirit": 40
+            },
+            "abilities": {
+                "Chi": "Increases Speed.",
+                "Stone Mantra": "Hardens your target, reducing damage received for one attack.",
+                "Distortion": "Deals Strength damage.",
+                "Pyrokinesis": "Deals Strength damage.",
+                "Narcotic Nano": "Reduce focus of the target party.",
+                "Nirvana": "Increases Strength, Mana, Vitality, and Spirit.",
+                "Cleanse Nano": "Heal and dispel unwanted status effects."
+            },
+            "archetypes": [
+                "11111111-1234-0000-1111-100000000003",
+                "11111111-1234-0000-1111-200000000003"
+            ]
+        },
+        "11111111-1234-0000-1111-000000000004": {
+            "id": "11111111-1234-0000-1111-000000000004",
+            "name": "Eoni Elder",
+            "classId": "11111111-1234-0000-1111-000000000000",
+            "stats": {
+                "hp": 2400,
+                "strength": 32,
+                "vitality": 45,
+                "speed": 7,
+                "mana": 38,
+                "spirit": 48
+            },
+            "abilities": {
+                "Harmony": "Increases Vitality.",
+                "Stone Mantra": "Hardens your target, reducing damage received for one attack.",
+                "Infinity": "Deals Strength damage.",
+                "Third Eye": "Heals and increases Speed.",
+                "Love Nano": "Revive your target.",
+                "Nirvana": "Increases Strength, Mana, Vitality, and Spirit.",
+                "Sedative Nano": "Reduce focus of your target."
+            },
+            "archetypes": [
+                "11111111-1234-0000-1111-100000000004",
+                "11111111-1234-0000-1111-200000000004"
+            ]
+        },
+        "11111111-1234-0000-2222-000000000001": {
+            "id": "11111111-1234-0000-2222-000000000001",
+            "name": "Servo-a",
+            "classId": "11111111-1234-0000-2222-000000000000",
+            "stats": {
+                "hp": 2700,
+                "strength": 47,
+                "vitality": 58,
+                "speed": 12,
+                "mana": 35,
+                "spirit": 55
+            },
+            "abilities": {
+                "Firewall": "Intercept attacks on your target. Servo receives increased damage.",
+                "Spam": "Deals Strength damage.",
+                "Safe Mode": "Heals Servo.",
+                "Antivirus": "Dispels unwanted status effects and heals your party",
+                "Joy Nano": "Heal your target.",
+                "Omega Protocol": "Deals significant damage... Use with caution!",
+                "Panacea Nano": "Dispel unwanted status effects from the target party."
+            },
+            "archetypes": [
+                "11111111-1234-0000-2222-100000000001",
+                "11111111-1234-0000-2222-200000000001"
+            ]
+        },
+        "11111111-1234-0000-2222-000000000002": {
+            "id": "11111111-1234-0000-2222-000000000002",
+            "name": "Servo-b",
+            "classId": "11111111-1234-0000-2222-000000000000",
+            "stats": {
+                "hp": 2200,
+                "strength": 56,
+                "vitality": 49,
+                "speed": 8,
+                "mana": 20,
+                "spirit": 40
+            },
+            "abilities": {
+                "Spam": "Deals Strength damage.",
+                "Mirror Bot": "Creates a Reflect shield.",
+                "Overclock": "Increases Speed.",
+                "Omega Protocol": "Deals significant damage... Use with caution!",
+                "Joy Nano": "Heal your target.",
+                "Conversion": "Creates a party shield that reflects 100% damage.",
+                "Shame Nano": "Increase Strength and Mana 6-stacks. Apply Degeneration 6-stacks."
+            },
+            "archetypes": [
+                "11111111-1234-0000-2222-100000000002",
+                "11111111-1234-0000-2222-200000000002"
+            ]
+        },
+        "11111111-1234-0000-2222-000000000003": {
+            "id": "11111111-1234-0000-2222-000000000003",
+            "name": "Servo-c",
+            "classId": "11111111-1234-0000-2222-000000000000",
+            "stats": {
+                "hp": 2600,
+                "strength": 45,
+                "vitality": 52,
+                "speed": 11,
+                "mana": 40,
+                "spirit": 52
+            },
+            "abilities": {
+                "Mirror Bot": "Creates a Reflect shield.",
+                "Safe Mode": "Heals Servo.",
+                "Inversion": "Deals Strength damage and inverts your target's controls.",
+                "Antivirus": "Dispels unwanted status effects and heals your party",
+                "Panacea Nano": "Dispel unwanted status effects from the target party.",
+                "Conversion": "Creates a party shield that reflects 100% damage.",
+                "Focus Nano": "Grant one level up."
+            },
+            "archetypes": [
+                "11111111-1234-0000-2222-100000000003",
+                "11111111-1234-0000-2222-200000000003"
+            ]
+        },
+        "11111111-1234-0000-2222-000000000004": {
+            "id": "11111111-1234-0000-2222-000000000004",
+            "name": "Servo-d",
+            "classId": "11111111-1234-0000-2222-000000000000",
+            "stats": {
+                "hp": 2700,
+                "strength": 55,
+                "vitality": 55,
+                "speed": 11,
+                "mana": 20,
+                "spirit": 50
+            },
+            "abilities": {
+                "Inversion": "Deals Strength damage and inverts your target's controls.",
+                "Overclock": "Increases Speed.",
+                "Firewall": "Intercept attacks on your target. Servo receives increased damage.",
+                "Conversion": "Creates a party shield that Reflects 100% damage.",
+                "Rapture Nano": "Significantly heal your target.",
+                "Omega Protocol": "Deals significant damage... Use with caution!",
+                "Panacea Nano": "Dispel unwanted status effects from the target party."
+            },
+            "archetypes": [
+                "11111111-1234-0000-2222-100000000004",
+                "11111111-1234-0000-2222-200000000004"
+            ]
+        },
+        "11111111-1234-0000-3333-000000000001": {
+            "id": "11111111-1234-0000-3333-000000000001",
+            "name": "Larus",
+            "classId": "11111111-1234-0000-3333-000000000000",
+            "stats": {
+                "hp": 2100,
+                "strength": 20,
+                "vitality": 38,
+                "speed": 8,
+                "mana": 50,
+                "spirit": 55
+            },
+            "abilities": {
+                "Patience": "Applies Regeneration, healing each time an action is performed.",
+                "Love": "Revives your target.",
+                "Joy": "Heals your target.",
+                "Fervor": "Revives and heals your party.",
+                "Cleanse Nano": "Heal and dispel unwanted status effects.",
+                "Optimism": "Revives your party and applies Regeneration.",
+                "Joy Nano": "Heal your target."
+            },
+            "archetypes": [
+                "11111111-1234-0000-3333-100000000001",
+                "11111111-1234-0000-3333-200000000001"
+            ]
+        },
+        "11111111-1234-0000-3333-000000000002": {
+            "id": "11111111-1234-0000-3333-000000000002",
+            "name": "Arisa",
+            "classId": "11111111-1234-0000-3333-000000000000",
+            "stats": {
+                "hp": 2200,
+                "strength": 25,
+                "vitality": 40,
+                "speed": 5,
+                "mana": 47,
+                "spirit": 50
+            },
+            "abilities": {
+                "Anger": "Deals Mana damage.",
+                "Joy": "Heals your target.",
+                "Pity": "Dispels unwanted status effects.",
+                "Optimism": "Revives your party and applies Regeneration.",
+                "Love Nano": "Revive your target.",
+                "Chaos": "Deals Mana damage and Disorients aim.",
+                "Adrenaline Nano": "Deal damage equal to 25% of max health, and increase Speed 3-stacks."
+            },
+            "archetypes": [
+                "11111111-1234-0000-3333-100000000002",
+                "11111111-1234-0000-3333-200000000002"
+            ]
+        },
+        "11111111-1234-0000-3333-000000000003": {
+            "id": "11111111-1234-0000-3333-000000000003",
+            "name": "Hume Scholar",
+            "classId": "11111111-1234-0000-3333-000000000000",
+            "stats": {
+                "hp": 2300,
+                "strength": 30,
+                "vitality": 40,
+                "speed": 8,
+                "mana": 45,
+                "spirit": 46
+            },
+            "abilities": {
+                "Despair": "Decreases Speed.",
+                "Patience": "Applies Regeneration, healing each time an action is performed.",
+                "Pity": "Dispels unwanted status effects.",
+                "Fervor": "Revives and heals your party.",
+                "Love Nano": "Revive your target.",
+                "Optimism": "Revives your party and applies Regeneration.",
+                "Empathy Nano": "Heal target party."
+            },
+            "archetypes": [
+                "11111111-1234-0000-3333-100000000003",
+                "11111111-1234-0000-3333-200000000003"
+            ]
+        },
+        "11111111-1234-0000-3333-000000000004": {
+            "id": "11111111-1234-0000-3333-000000000004",
+            "name": "Keres",
+            "classId": "11111111-1234-0000-3333-000000000000",
+            "stats": {
+                "hp": 2000,
+                "strength": 35,
+                "vitality": 42,
+                "speed": 7,
+                "mana": 53,
+                "spirit": 52
+            },
+            "abilities": {
+                "Indignation": "Deals Mana damage.",
+                "Pride": "Heals and applies Regeneration to yourself.",
+                "Despair": "Decreases Speed.",
+                "Fervor": "Revives and heals your party.",
+                "Love Nano": "Revive your target.",
+                "Chaos": "Deals Mana damage and Disorients aim.",
+                "Adrenaline Nano": "Deal damage equal to 25% of max health, and increase Speed 3-stacks."
+            },
+            "archetypes": [
+                "11111111-1234-0000-3333-100000000004",
+                "11111111-1234-0000-3333-200000000004"
+            ]
+        },
+        "11111111-1234-0000-4444-000000000001": {
+            "id": "11111111-1234-0000-4444-000000000001",
+            "name": "Betany",
+            "classId": "11111111-1234-0000-4444-000000000000",
+            "stats": {
+                "hp": 2100,
+                "strength": 42,
+                "vitality": 44,
+                "speed": 5,
+                "mana": 42,
+                "spirit": 48
+            },
+            "abilities": {
+                "Crush": "Deals Hybrid damage.",
+                "Transfusion": "Heals your target. Damages yourself in the process.",
+                "Scorch": "Applies Degeneration, dealing damage each time an action is performed.",
+                "Terrify": "Decreases Strength, Mana, Vitality, and Spirit.",
+                "Patience Nano": "Slightly heal and apply Regeneration 3-stacks to the target party.",
+                "Demise": "Dealse damage equal to a fraction of a random enemy's remaining HP.",
+                "Shame Nano": "Increase Strenght and Mana 6-stacks. Apply Degeneration 6-stacks."
+            },
+            "archetypes": [
+                "11111111-1234-0000-4444-100000000001",
+                "11111111-1234-0000-4444-200000000001"
+            ]
+        },
+        "11111111-1234-0000-4444-000000000002": {
+            "id": "11111111-1234-0000-4444-000000000002",
+            "name": "Dythor",
+            "classId": "11111111-1234-0000-4444-000000000000",
+            "stats": {
+                "hp": 1900,
+                "strength": 43,
+                "vitality": 43,
+                "speed": 4,
+                "mana": 50,
+                "spirit": 50
+            },
+            "abilities": {
+                "Rift": "Deals Hybrid damage, combining Strength and Mana as offensive power.",
+                "Scorch": "Applies Degeneration, dealing damage each time an action is performed.",
+                "Shatter": "Reduces focus of your target.",
+                "Sacrifice": "Self-destruct to increase all stats and apply Regeneration on your party.",
+                "Patience Nano": "Slightly heal and apply Regeneration 3-stacks to the target party.",
+                "Demise": "Deals damage equal to a fraction of a random enemy's remaining HP.",
+                "Shame Nano": "Increase Strength and Mana 6-stacks. Apply Degeneration 6-stacks."
+            },
+            "archetypes": [
+                "11111111-1234-0000-4444-100000000002",
+                "11111111-1234-0000-4444-200000000002"
+            ]
+        },
+        "11111111-1234-0000-4444-000000000003": {
+            "id": "11111111-1234-0000-4444-000000000003",
+            "name": "HEL Agent",
+            "classId": "11111111-1234-0000-4444-000000000000",
+            "stats": {
+                "hp": 2200,
+                "strength": 40,
+                "vitality": 42,
+                "speed": 6,
+                "mana": 43,
+                "spirit": 45
+            },
+            "abilities": {
+                "Injure": "Decreases Mana.",
+                "Transfusion": "Heals your target. Damages yourself in the process.",
+                "Rift": "Deals Hybrid damage, combining Strength and Mana as offensive power.",
+                "Sacrifice": "Self-destruct to increase all stats and apply Regeneration on your party.",
+                "Joy Nano": "Heal your target.",
+                "Terrify": "Decreases Strength, Mana, Vitality, and Spirit.",
+                "Love Nano": "Revive your target."
+            },
+            "archetypes": [
+                "11111111-1234-0000-4444-100000000003",
+                "11111111-1234-0000-4444-200000000003"
+            ]
+        },
+        "11111111-1234-0000-4444-000000000004": {
+            "id": "11111111-1234-0000-4444-000000000004",
+            "name": "Cyrus",
+            "classId": "11111111-1234-0000-4444-000000000000",
+            "stats": {
+                "hp": 2100,
+                "strength": 35,
+                "vitality": 40,
+                "speed": 3,
+                "mana": 41,
+                "spirit": 46
+            },
+            "abilities": {
+                "Defile": "Deals Hybrid damage and applies Degeneration to random targets.",
+                "Shatter": "Reduces focus of your target.",
+                "Crush": "Deals Hybrid damage.",
+                "Sacrifice": "Self-destruct to increase all stats and apply Regeneration on your party.",
+                "Patience Nano": "Slightly heal and apply Regeneration 3-stacks to the target party.",
+                "Terrify": "Decreases Strength, Mana, Vitality, and Spirit.",
+                "Love Nano": "Revive your target."
+            },
+            "archetypes": [
+                "11111111-1234-0000-4444-100000000004",
+                "11111111-1234-0000-4444-200000000004"
+            ]
+        }
+    },
+    "archetypes": {
+        "11111111-1234-0000-1111-100000000001": {
+            "id": "11111111-1234-0000-1111-100000000001",
+            "specializationId": "11111111-1234-0000-1111-100000000000",
+            "characterId": "11111111-1234-0000-1111-000000000001",
+            "abilities": {
+                "Infinity": "Upgrade to increase power and Scramble mind.",
+                "Chakra": "Upgrade to increase your Strength with each cast.",
+                "Chi": "Upgrade to grant focus.",
+                "Pyrokinesis": "Boost to increase power.",
+                "Sedative Nano": "2 uses"
+            }
+        },
+        "11111111-1234-0000-1111-200000000001": {
+            "id": "11111111-1234-0000-1111-200000000001",
+            "specializationId": "11111111-1234-0000-1111-200000000000",
+            "characterId": "11111111-1234-0000-1111-000000000001",
+            "abilities": {
+                "Infinity": "Upgrade to dispel.",
+                "Chakra": "Upgrade to boost your focus with each cast.",
+                "Chi": "Upgrade to target entire party and increase your spirit with each cast.",
+                "Third Eye": "Boost to increase power.",
+                "Love Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-1111-100000000002": {
+            "id": "11111111-1234-0000-1111-100000000002",
+            "specializationId": "11111111-1234-0000-1111-100000000000",
+            "characterId": "11111111-1234-0000-1111-000000000002",
+            "abilities": {
+                "Distortion": "Upgrade to increase power and Scramble mind.",
+                "Harmony": "Upgrade to increase Strength and Mana.",
+                "Chakra": "Upgrade to increase your Strength with each cast.",
+                "Pyrokinesis": "Boost to increase power.",
+                "Frenzy Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-1111-200000000002": {
+            "id": "11111111-1234-0000-1111-200000000002",
+            "specializationId": "11111111-1234-0000-1111-200000000000",
+            "characterId": "11111111-1234-0000-1111-000000000002",
+            "abilities": {
+                "Distortion": "Upgrade to target entire party.",
+                "Harmony": "Upgrade to target entire party and increase Spirit.",
+                "Chakra": "Upgrade to boost your focus with each cast.",
+                "Nirvana": "Boost to increase power.",
+                "Narcotic Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-1111-100000000003": {
+            "id": "11111111-1234-0000-1111-100000000003",
+            "specializationId": "11111111-1234-0000-1111-100000000000",
+            "characterId": "11111111-1234-0000-1111-000000000003",
+            "abilities": {
+                "Chi": "Upgrade to grant focus.",
+                "Stone Mantra": "Upgrade to dispel.",
+                "Distortion": "Upgrade to increase power and Scramble mind.",
+                "Pyrokinesis": "Boost to increase power.",
+                "Narcotic Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-1111-200000000003": {
+            "id": "11111111-1234-0000-1111-200000000003",
+            "specializationId": "11111111-1234-0000-1111-200000000000",
+            "characterId": "11111111-1234-0000-1111-000000000003",
+            "abilities": {
+                "Chi": "Upgrade to target entire party and increase your spirit with each cast.",
+                "Stone Mantra": "Upgrade to revive.",
+                "Distortion": "Upgrade to target entire party.",
+                "Nirvana": "Boost to increase power.",
+                "Cleanse Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-1111-100000000004": {
+            "id": "11111111-1234-0000-1111-100000000004", 
+            "specializationId": "11111111-1234-0000-1111-100000000000",
+            "characterId": "11111111-1234-0000-1111-000000000004",
+            "abilities": {
+                "Harmony": "Upgrade to increase Strength and Mana.",
+                "Stone Mantra": "Upgrade to dispel.",
+                "Infinity": "Upgrade to increase power and Scramble mind.",
+                "Third Eye": "Boost to increase power.",
+                "Love Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-1111-200000000004": {
+            "id": "11111111-1234-0000-1111-200000000004",
+            "specializationId": "11111111-1234-0000-1111-200000000000",
+            "characterId": "11111111-1234-0000-1111-000000000004",
+            "abilities": {
+                "Harmony": "Upgrade to target entire party and increase Spirit.",
+                "Stone Mantra": "Upgrade to revive.",
+                "Infinity": "Upgrade to dispel.",
+                "Nirvana": "Boost to increase power.",
+                "Sedative Nano": "2 uses"
+            }
+        },
+        "11111111-1234-0000-2222-100000000001": {
+            "id": "11111111-1234-0000-2222-100000000001",
+            "specializationId": "11111111-1234-0000-2222-100000000000",
+            "characterId": "11111111-1234-0000-2222-000000000001",
+            "abilities": {
+                "Firewall": "Upgrade to reduce Servo's damage received.",
+                "Spam": "Upgrade to target entire party.",
+                "Safe Mode": "Upgrade to dispel Servo.",
+                "Antivirus": "Boost to increase healing power.",
+                "Joy Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-2222-200000000001": {
+            "id": "11111111-1234-0000-2222-200000000001",
+            "specializationId": "11111111-1234-0000-2222-200000000000",
+            "characterId": "11111111-1234-0000-2222-000000000001",
+            "abilities": {
+                "Firewall": "Upgrade to boost your focus with each cast.",
+                "Spam": "Upgrade to reduce target's focus.",
+                "Safe Mode": "Upgrade to increase Servo's Spirit and Vitality.",
+                "Omega Protocol": "Boost to spare your allies.",
+                "Panacea Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-2222-100000000002": {
+            "id": "11111111-1234-0000-2222-100000000002",
+            "specializationId": "11111111-1234-0000-2222-100000000000",
+            "characterId": "11111111-1234-0000-2222-000000000002",
+            "abilities": {
+                "Spam": "Upgrade to target entire party.",
+                "Mirror Bot": "Upgrade to reflect more damage.",
+                "Overclock": "Upgrade to increase power and apply Regeneration.",
+                "Omega Protocol": "Boost to spare your allies.",
+                "Joy Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-2222-200000000002": {
+            "id": "11111111-1234-0000-2222-200000000002",
+            "specializationId": "11111111-1234-0000-2222-200000000000",
+            "characterId": "11111111-1234-0000-2222-000000000002",
+            "abilities": {
+                "Spam": "Upgrade to reduce target's focus.",
+                "Mirror Bot": "Upgrade to reflect status effects and increase duration.",
+                "Overclock": "Upgrade to target entire party.",
+                "Conversion": "Boost to reflect status effects.",
+                "Shame Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-2222-100000000003": {
+            "id": "11111111-1234-0000-2222-100000000003",
+            "specializationId": "11111111-1234-0000-2222-100000000000",
+            "characterId": "11111111-1234-0000-2222-000000000003",
+            "abilities": {
+                "Mirror Bot": "Upgrade to reflect more damage.",
+                "Safe Mode": "Upgrade to dispel Servo.",
+                "Inversion": "Upgrade to impair vision.",
+                "Antivirus": "Boost to increase healing power.",
+                "Panacea Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-2222-200000000003": {
+            "id": "11111111-1234-0000-2222-200000000003",
+            "specializationId": "11111111-1234-0000-2222-200000000000",
+            "characterId": "11111111-1234-0000-2222-000000000003",
+            "abilities": {
+                "Mirror Bot": "Upgrade to reflect status effects and increase duration.",
+                "Safe Mode": "Upgrade to increase Servo's Spirit and Vitality.",
+                "Inversion": "Upgrade to target entire party.",
+                "Conversion": "Boost to reflect status effects.",
+                "Focus Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-2222-100000000004": {
+            "id": "11111111-1234-0000-2222-100000000004",
+            "specializationId": "11111111-1234-0000-2222-100000000000",
+            "characterId": "11111111-1234-0000-2222-000000000004",
+            "abilities": {
+                "Inversion": "Upgrade to impair vision.",
+                "Overclock": "Upgrade to increase power and apply Regeneration.",
+                "Firewall": "Upgrade to reduce Servo's damage received.",
+                "Conversion": "Boost to reflect status effects.",
+                "Rapture Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-2222-200000000004": {
+            "id": "11111111-1234-0000-2222-200000000004",
+            "specializationId": "11111111-1234-0000-2222-200000000000",
+            "characterId": "11111111-1234-0000-2222-000000000004",
+            "abilities": {
+                "Inversion": "Upgrade to target entire party.",
+                "Overclock": "Upgrade to target entire party.",
+                "Firewall": "Upgrade to boost your focus with each cast.",
+                "Omega Protocol": "Boost to spare your allies.",
+                "Panacea Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-3333-100000000001": {
+            "id": "11111111-1234-0000-3333-100000000001",
+            "specializationId": "11111111-1234-0000-3333-100000000000",
+            "characterId": "11111111-1234-0000-3333-000000000001",
+            "abilities": {
+                "Patience": "Upgrade to increase power.",
+                "Love": "Upgrade to maximize health restored.",
+                "Joy": "Upgrade to increase healing power and Spirit.",
+                "Fervor": "Boost to increase healing power.",
+                "Cleanse Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-3333-200000000001": {
+            "id": "11111111-1234-0000-3333-200000000001",
+            "specializationId": "11111111-1234-0000-3333-200000000000",
+            "characterId": "11111111-1234-0000-3333-000000000001",
+            "abilities": {
+                "Patience": "Upgrade to heal target.",
+                "Love": "Upgrade to apply Regeneration.",
+                "Joy": "Upgrade to target entire party and increase Spirit.",
+                "Optimism": "Boost to healing increase power.",
+                "Joy Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-3333-100000000002": {
+            "id": "11111111-1234-0000-3333-100000000002",
+            "specializationId": "11111111-1234-0000-3333-100000000000",
+            "characterId": "11111111-1234-0000-3333-000000000002",
+            "abilities": {
+                "Anger": "Upgrade to increase power.",
+                "Joy": "Upgrade to increase healing power and Spirit.",
+                "Pity": "Upgrade to heal target.",
+                "Optimism": "Boost to healing increase power.",
+                "Love Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-3333-200000000002": {
+            "id": "11111111-1234-0000-3333-200000000002",
+            "specializationId": "11111111-1234-0000-3333-200000000000",
+            "characterId": "11111111-1234-0000-3333-000000000002",
+            "abilities": {
+                "Anger": "Upgrade to target entire party and Disorient aim.",
+                "Joy": "Upgrade to target entire party and increase Spirit.",
+                "Pity": "Upgrade to copy positive status effects onto yourself.",
+                "Chaos": "Boost to increase power.",
+                "Adrenaline Nano": "2 uses"
+            }
+        },
+        "11111111-1234-0000-3333-100000000003": {
+            "id": "11111111-1234-0000-3333-100000000003",
+            "specializationId": "11111111-1234-0000-3333-100000000000",
+            "characterId": "11111111-1234-0000-3333-000000000003",
+            "abilities": {
+                "Despair": "Upgrade to dispel.",
+                "Patience": "Upgrade to increase power.",
+                "Pity": "Upgrade to heal target.",
+                "Fervor": "Boost to increase healing power.",
+                "Love Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-3333-200000000003": {
+            "id": "11111111-1234-0000-3333-200000000003",
+            "specializationId": "11111111-1234-0000-3333-200000000000",
+            "characterId": "11111111-1234-0000-3333-000000000003",
+            "abilities": {
+                "Despair": "Upgrade to target entire party.",
+                "Patience": "Upgrade to heal target.",
+                "Pity": "Upgrade to copy positive status effects on yourself.",
+                "Optimism": "Boost to healing increase power.",
+                "Empathy Nano": "2 uses"
+            }
+        },
+        "11111111-1234-0000-3333-100000000004": {
+            "id": "11111111-1234-0000-3333-100000000004",
+            "specializationId": "11111111-1234-0000-3333-100000000000",
+            "characterId": "11111111-1234-0000-3333-000000000004",
+            "abilities": {
+                "Indignation": "Upgrade to increase power.",
+                "Pride": "Upgrade to increase your Spirit with each cast.",
+                "Despair": "Upgrade to dispel.",
+                "Fervor": "Boost to increase healing power.",
+                "Love Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-3333-200000000004": {
+            "id": "11111111-1234-0000-3333-200000000004",
+            "specializationId": "11111111-1234-0000-3333-200000000000",
+            "characterId": "11111111-1234-0000-3333-000000000004",
+            "abilities": {
+                "Indignation": "Upgrade to increase your Mana with each cast.",
+                "Pride": "Heals Upgrade to dispel yourself with each cast.",
+                "Despair": "Upgrade to target entire party.",
+                "Chaos": "Boost to increase power.",
+                "Adrenaline Nano": "2 uses"
+            }
+        },
+        "11111111-1234-0000-4444-100000000001": {
+            "id": "11111111-1234-0000-4444-100000000001",
+            "specializationId": "11111111-1234-0000-4444-100000000000",
+            "characterId": "11111111-1234-0000-4444-000000000001",
+            "abilities": {
+                "Crush": "Upgrade to decrease Spirit and drain health.",
+                "Transfusion": "Upgrade to revive instead of heal.",
+                "Scorch": "Upgrade to increase power.",
+                "Terrify": "Boost to increase power.",
+                "Patience Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-4444-200000000001": {
+            "id": "11111111-1234-0000-4444-200000000001",
+            "specializationId": "11111111-1234-0000-4444-200000000000",
+            "characterId": "11111111-1234-0000-4444-000000000001",
+            "abilities": {
+                "Crush": "Upgrade to Daze",
+                "Transfusion": "Upgrade to maximize healing effectiveness.",
+                "Scorch": "Upgrade to target entire party.",
+                "Demise": "Boost to increase power",
+                "Shame Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-4444-100000000002": {
+            "id": "11111111-1234-0000-4444-100000000002",
+            "specializationId": "11111111-1234-0000-4444-100000000000",
+            "characterId": "11111111-1234-0000-4444-000000000002",
+            "abilities": {
+                "Rift": "Upgrade to drain health.",
+                "Scorch": "Upgrade to increase power.",
+                "Shatter": "Upgrade to decrease Speed.",
+                "Sacrifice": "Boost to increase power.",
+                "Patience Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-4444-200000000002": {
+            "id": "11111111-1234-0000-4444-200000000002",
+            "specializationId": "11111111-1234-0000-4444-200000000000",
+            "characterId": "11111111-1234-0000-4444-000000000002",
+            "abilities": {
+                "Rift": "Upgrade to increase power.",
+                "Scorch": "Upgrade to target entire party.",
+                "Shatter": "Upgrade to deal Hybrid damage.",
+                "Demise": "Boost to increase power.",
+                "Shame Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-4444-100000000003": {
+            "id": "11111111-1234-0000-4444-100000000003",
+            "specializationId": "11111111-1234-0000-4444-100000000000",
+            "characterId": "11111111-1234-0000-4444-000000000003",
+            "abilities": {
+                "Injure": "Upgrade to decrease Vitality and Spirit.",
+                "Transfusion": "Upgrade to revive instead of heal.",
+                "Rift": "Upgrade to drain health.",
+                "Sacrifice": "Boost to increase power.",
+                "Joy Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-4444-200000000003": {
+            "id": "11111111-1234-0000-4444-200000000003",
+            "specializationId": "11111111-1234-0000-4444-200000000000",
+            "characterId": "11111111-1234-0000-4444-000000000003",
+            "abilities": {
+                "Injure": "Upgrade to target entire party and decrease Strength.",
+                "Transfusion": "Upgrade to maximize healing effectiveness.",
+                "Rift": "Upgrade to increase power.",
+                "Terrify": "Boost to increase power.",
+                "Love Nano": "3 uses"
+            }
+        },
+        "11111111-1234-0000-4444-100000000004": {
+            "id": "11111111-1234-0000-4444-100000000004",
+            "specializationId": "11111111-1234-0000-4444-100000000000",
+            "characterId": "11111111-1234-0000-4444-000000000004",
+            "abilities": {
+                "Defile": "Upgrade to increase power.",
+                "Shatter": "Upgrade to decrease Speed.",
+                "Crush": "Upgrade to decrease Spirit and drain health.",
+                "Sacrifice": "Boost to increase power.",
+                "Patience Nano": "1 use"
+            }
+        },
+        "11111111-1234-0000-4444-200000000004": {
+            "id": "11111111-1234-0000-4444-200000000004",
+            "specializationId": "11111111-1234-0000-4444-200000000000",
+            "characterId": "11111111-1234-0000-4444-000000000004",
+            "abilities": {
+                "Defile": "Upgrade to Daze.",
+                "Shatter": "Upgrade to deal Hybrid damage.",
+                "Crush": "Upgrade to Daze.",
+                "Terrify": "Boost to increase power.",
+                "Love Nano": "3 uses"
+            }
+        }
+    },
+    "specializations": {
+        "11111111-1234-0000-1111-100000000000": {
+            "id": "11111111-1234-0000-1111-100000000000",
+            "name": "Fury",
+            "classId": "11111111-1234-0000-1111-000000000000"
+        },
+        "11111111-1234-0000-1111-200000000000": {
+            "id": "11111111-1234-0000-1111-200000000000",
+            "name": "Karma",
+            "classId": "11111111-1234-0000-1111-000000000000"
+        },
+        "11111111-1234-0000-2222-100000000000": {
+            "id": "11111111-1234-0000-2222-100000000000",
+            "name": "Grit",
+            "classId": "11111111-1234-0000-2222-000000000000"
+        },
+        "11111111-1234-0000-2222-200000000000": {
+            "id": "11111111-1234-0000-2222-200000000000",
+            "name": "Wit",
+            "classId": "11111111-1234-0000-2222-000000000000"
+        },
+        "11111111-1234-0000-3333-100000000000": {
+            "id": "11111111-1234-0000-3333-100000000000",
+            "name": "Karma",
+            "classId": "11111111-1234-0000-3333-000000000000"
+        },
+        "11111111-1234-0000-3333-200000000000": {
+            "id": "11111111-1234-0000-3333-200000000000",
+            "name": "Wit",
+            "classId": "11111111-1234-0000-3333-000000000000"
+        },
+        "11111111-1234-0000-4444-100000000000": {
+            "id": "11111111-1234-0000-4444-100000000000",
+            "name": "Shadow",
+            "classId": "11111111-1234-0000-4444-000000000000"
+        },
+        "11111111-1234-0000-4444-200000000000": {
+            "id": "11111111-1234-0000-4444-200000000000",
+            "name": "Fury",
+            "classId": "11111111-1234-0000-4444-000000000000"
+        }
+    }
+}
