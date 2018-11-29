@@ -1,0 +1,14 @@
+@import '../_styles/App';
+
+// BASE STYLING
+@import './base/base';
+@import './abstracts/mixins';
+
+// CharacterPage
+@import '../components/CharacterPage/_styles/CharacterPage';
+
+// ShowCharactersButton
+@import '../components/ShowCharactersButton/_styles/ShowCharactersButton';
+
+// CharacterCard 
+@import '../components/CharacterCard/_styles/CharacterCard';
