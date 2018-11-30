@@ -1,25 +1,30 @@
 import React from 'react';
-import { render } from 'react-testing-library';
+import { render, fireEvent, waitForElement } from 'react-testing-library';
 import { Provider, Consumer } from '../../Provider/Provider';
 
-import App from '../../..//App';
-import CharacterPage from '../CharacterPage';
-import ShowCharactersButton from '../../ShowCharactersButton/ShowCharactersButton';
+import MainPage from '../../MainPage/MainPage';
 
-test('CharacterPage renders 16 character cards', () => {
+
+test('CharacterPage renders with no error', async () => {
     const tree = (
         <Provider>
             <Consumer>
-                <App />
+                {value => <MainPage /> }
             </Consumer>
         </Provider>
     );
 
-    const { debug, getByText } = render(tree);
+    const { getByText } = render(tree);
 
     const characterButton = getByText('Show a list of characters!');
 
-    console.log(characterButton)
+    fireEvent.click(characterButton);
 
-    debug();
-})
+    await waitForElement(() => document.getElementsByClassName('CharacterPage')[0]);
+
+    expect(await waitForElement(() => document.getElementsByClassName('CharacterPage')[0])).toBeDefined();
+
+});
+
+// TEST THAT CHARACTERPAGE RENDERS 16 CHARACTER CARDS
+
