@@ -1,30 +1,7 @@
-import React, { Component, Fragment } from 'react';
-import { Provider, Consumer } from './components/Provider/Provider';
+import React, { Component } from 'react';
+import { Provider } from './components/Provider/Provider';
 
-
-import ShowCharactersButton from './components/ShowCharactersButton/ShowCharactersButton';
-import CharacterPage from './components/CharacterPage/CharacterPage';
-
-const ConditionalComponentRender = () => {
-    return (
-        <Consumer>
-            {value => {
-                const { characters } = value.state;                    
-                return (
-                    <Fragment>
-                        {
-                            characters === null ? (
-                                <ShowCharactersButton />
-                            ) : (
-                                <CharacterPage></CharacterPage>
-                            )
-                        }                                    
-                    </Fragment>                                
-                )
-            }}                        
-        </Consumer> 
-    )
-}
+import MainPage from './components/MainPage/MainPage';
 
 
 class App extends Component {
@@ -32,7 +9,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Provider>
-                    <ConditionalComponentRender />
+                    <MainPage />
                 </Provider>                
             </div>
         )
