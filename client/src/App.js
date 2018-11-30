@@ -11,7 +11,7 @@ const ConditionalComponentRender = () => {
             {value => {
                 const { characters } = value.state;                    
                 return (
-                    <Fragment className="">
+                    <Fragment>
                         {
                             characters === null ? (
                                 <ShowCharactersButton />
@@ -27,7 +27,7 @@ const ConditionalComponentRender = () => {
 }
 
 
-class AppWithoutHooks extends Component {
+class App extends Component {
     render() {
         return (
             <div className="App">
@@ -39,4 +39,4 @@ class AppWithoutHooks extends Component {
     }
 }
 
-export default AppWithoutHooks;
+export default App;

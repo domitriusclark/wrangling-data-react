@@ -5,7 +5,8 @@ const MyContext = React.createContext();
 export class Provider extends Component {
     state = {
         characters: null,
-        loading: true
+        loading: true,
+        name: 'Domitrius'
     };
 
     showCharacters = async () => {

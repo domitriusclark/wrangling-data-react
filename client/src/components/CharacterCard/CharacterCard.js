@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+export const STYLE_BLOCK = "CharacterCard";
 
 const CharacterCard = ({name, stats }) => {
     const statGrid = Object.keys(stats).map(((stat) => {
@@ -9,9 +9,11 @@ const CharacterCard = ({name, stats }) => {
         )
     }));
     return (
-        <div className="CharacterCard">
-            {name}
-            {statGrid}
+        <div className={STYLE_BLOCK}>
+            <p>{name}</p>
+            <div className={`${STYLE_BLOCK}__stats`}>
+                {statGrid}
+            </div>            
         </div>
     )
 }
