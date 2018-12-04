@@ -9,9 +9,11 @@ In this app we are using React 16.7 Alpha. Do not take this to production withou
 
 - git clone this repo
 
+- git checkout ContextAndTestingForMeetup 
+
 - npm install  / cd client -- npm install again
 
 - npm run dev (this will run both your node server and your client)
 
-- Enjoy building!!
+
 
