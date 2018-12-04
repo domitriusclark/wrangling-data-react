@@ -1,28 +1,20 @@
 import React, { Fragment } from 'react';
 import { Consumer } from '../Provider/Provider';
 
-import ShowCharactersButton from '../ShowCharactersButton/ShowCharactersButton';
-import CharacterPage from '../CharacterPage/CharacterPage';
-
-const MainPage = () => {
+const MainPage = ({WithCharacters, WithoutCharacters}) => {
     return (
         <Consumer>
             {value => {
                 const { characters } = value.state;                    
                 return (
                     <Fragment>
-                        {
-                            characters === null ? (
-                                <ShowCharactersButton />
-                            ) : (
-                                <CharacterPage></CharacterPage>
-                            )
-                        }                                    
+                        {characters === null ? (<WithoutCharacters />) : (<WithCharacters />)}                                    
                     </Fragment>                                
                 )
             }}                        
         </Consumer> 
-    )
-}
+    );
+};
+
 
 export default MainPage;

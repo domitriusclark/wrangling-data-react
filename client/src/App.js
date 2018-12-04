@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Provider } from './components/Provider/Provider';
 
 import MainPage from './components/MainPage/MainPage';
+import ShowCharactersButton from './components/ShowCharactersButton/ShowCharactersButton';
+import CharacterPage from './components/CharacterPage/CharacterPage';
 
 
 class App extends Component {
@@ -9,7 +11,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Provider>
-                    <MainPage />
+                    <MainPage WithCharacters={CharacterPage} WithoutCharacters={ShowCharactersButton} />
                 </Provider>                
             </div>
         )

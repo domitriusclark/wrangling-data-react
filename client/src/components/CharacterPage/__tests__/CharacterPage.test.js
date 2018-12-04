@@ -1,30 +1,39 @@
 import React from 'react';
-import { render, fireEvent, waitForElement } from 'react-testing-library';
-import { Provider, Consumer } from '../../Provider/Provider';
+import { render } from 'react-testing-library';
+import { MockedProvider, contextValueSeed } from '../../../utils/test-utils';
 
-import MainPage from '../../MainPage/MainPage';
+import CharacterPage from '../CharacterPage';
 
 
-test('CharacterPage renders with no error', async () => {
+
+test('Character Page renders with no error', () => {
     const tree = (
-        <Provider>
-            <Consumer>
-                {value => <MainPage /> }
-            </Consumer>
-        </Provider>
+        <MockedProvider value={contextValueSeed}>
+            <CharacterPage />
+        </MockedProvider>
     );
+    render(tree);    
 
-    const { getByText } = render(tree);
+    const characterPage = document.getElementsByClassName('CharacterPage')[0]
 
-    const characterButton = getByText('Show a list of characters!');
-
-    fireEvent.click(characterButton);
-
-    await waitForElement(() => document.getElementsByClassName('CharacterPage')[0]);
-
-    expect(await waitForElement(() => document.getElementsByClassName('CharacterPage')[0])).toBeDefined();
+    expect(characterPage).toBeDefined();
 
 });
 
-// TEST THAT CHARACTERPAGE RENDERS 16 CHARACTER CARDS
+test('Character Page renders a CharacterCard for every character on state', () => {
+    const tree = (
+        <MockedProvider value={contextValueSeed}>
+            <CharacterPage />
+        </MockedProvider>
+    );
+    render(tree);  
+    
+    const characterPage = document.getElementsByClassName('CharacterPage')[0]
+    
+    expect(characterPage.children).toHaveLength(contextValueSeed.state.characters.length);
+
+});
+
+
+
 

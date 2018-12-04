@@ -5,6 +5,7 @@ import CharacterCard, { STYLE_BLOCK } from '../CharacterCard';
 afterEach(cleanup);
 
 const mockProps = {
+    id: 1,
     name: 'Domitrius',
     stats: {
         hp: 200,
@@ -26,7 +27,7 @@ test('CharacterCard renders with a name', () => {
 
     expect(nameNode.innerHTML).toMatch('Domitrius');
     
-})
+});
 
 test('statsGrid renders children', () => {
     const { stats } = mockProps;
@@ -36,7 +37,4 @@ test('statsGrid renders children', () => {
     const statContainer = document.getElementsByClassName(`${STYLE_BLOCK}__stats`)[0];
 
     expect(statContainer.children.length).toBeGreaterThan(0);
-})
-
-
-// Add tests and code to provide error handling if the data isn't fetched properly.
+});

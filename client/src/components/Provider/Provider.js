@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const MyContext = React.createContext();
+export const MyContext = React.createContext();
 
 export class Provider extends Component {
     state = {
