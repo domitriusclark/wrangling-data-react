@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Consumer } from '../Provider/Provider';
 
 import CharacterCard from '../CharacterCard/CharacterCard';

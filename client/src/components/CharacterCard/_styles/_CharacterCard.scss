@@ -1,7 +1,133 @@
 .CharacterCard {
-    height: 50rem;
+    height: 45rem;
     width: 30rem;
     box-shadow: 0 .3rem 2.5rem black;
     margin-bottom: 3rem;
     margin-right: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 3px;
+
+    &__name {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    &__stats {
+        width: 90%;
+        padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: center;
+
+        & p {
+            margin-right: 3rem;
+            font-size: 2rem;
+            align-self: flex-start;
+        }
+    }
 }
+
+.characterImage {
+    height: 60%;
+    width: 100%;
+}
+
+.Arisa {
+    background: url('/assets/Arisa.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Betany {
+    background: url('/assets/Betany.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Cyrus {
+    background: url('/assets/Cyrus.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Dythor {
+    background: url('/assets/Dythor.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.EoniElder {
+    background: url('/assets/EoniElder.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Ev {
+    background: url('/assets/Ev.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Gia {
+    background: url('/assets/Gia.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.HELAgent {
+    background: url('/assets/HELAgent.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.HumeScholar {
+    background: url('/assets/Humescholar.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Kasper {
+    background: url('/assets/Kasper.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Keres {
+    background: url('/assets/Keres.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Larus {
+    background: url('/assets/Larus.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Servo-a {
+    background: url('/assets/Servo-a.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Servo-b {
+    background: url('/assets/Servo-b.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Servo-c {
+    background: url('/assets/Servo-c.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Servo-d {
+    background: url('/assets/Servo-d.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+

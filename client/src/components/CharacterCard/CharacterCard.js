@@ -10,7 +10,8 @@ const CharacterCard = ({name, stats }) => {
     }));
     return (
         <div className={STYLE_BLOCK}>
-            <p>{name}</p>
+            <div className={`${name.split(' ').join('')} characterImage`}></div>
+            <p className={`${STYLE_BLOCK}__name`}>{name}</p>
             <div className={`${STYLE_BLOCK}__stats`}>
                 {statGrid}
             </div>            
